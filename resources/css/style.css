@@ -3,16 +3,18 @@ body {
     text-align: center;
 }
 
-header {
+header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     color: white;
 }
 
-.Link a {
+.Link h2 a {
     color: aquamarine;
     font-size: 16px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
@@ -20,24 +22,26 @@ header {
     color: aqua;
 }
 
-.Subheading {
+.Subheading h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 42px;
     color: white;
 }
 
-.Photo_Description h3 {
+.Photo_Description h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 21;
+    font-size: 21px;
+    font-weight: 300;
     color: gray;
 }
 
 .Phone_Image {
-    padding: 10px;
+    padding: 20px;
 }
 
 .Footer h3 {
     text-align: right;
     color: gray;
+    padding-right: 20px;
 }
